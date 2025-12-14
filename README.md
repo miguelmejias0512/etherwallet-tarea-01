@@ -113,7 +113,7 @@ $ cd etherwallet-tarea-01
 $ npm install --save-dev hardhat@hh2
 ```
 
-![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/06-Entonro_HardHat.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/06-Entorno-HardHat.png)
 
 4. Se procede a inicializar el entorno y la creación de nuestro proyecto.
 
@@ -123,11 +123,11 @@ $ npm install --save-dev hardhat@hh2
 $ npx hardhat init
 ```
 
-![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/07-Entonro_HardHat.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/07-Entorno-HardHat.png)
 
-![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/08-Entonro_HardHat.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/08-Entorno-HardHat.png)
 
-![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/09-Entonro_HardHat.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/09-Entorno-HardHat.png)
 
 #### Paso-02: Configuración de Variables de Entorno
 
