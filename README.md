@@ -12,7 +12,7 @@ Address: **0xf3861969D9E49b9AD60875b3f43eec32ce87C789**
 
 Etherscan: **https://sepolia.etherscan.io/address/0xf3861969D9E49b9AD60875b3f43eec32ce87C789#code**
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/21-Verificación.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/21-Verificación.png)
 
 ## II. Características.
 
@@ -37,13 +37,13 @@ Etherscan: **https://sepolia.etherscan.io/address/0xf3861969D9E49b9AD60875b3f43e
 
    En la imagen se muestra los comandos de instalación en Linux, en mi caso Debian 13, los cuales deberan ser ejecutados mediante el uso de la terminal.
 
-   ![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/01-nodejs.png)
+   ![](assets/01-nodejs.png](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/01-nodejs.png))
 
    
 
 2. **MetaMask**: Extensión instalada como extensión de tu navegador.
 
-   ![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/02-Metamask.png)
+   ![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/02-Metamask.png))
 
 3. **ETH de Sepolia** se debe contar con cierta cantidad mínima de Ether de sepolia.
 
@@ -55,11 +55,11 @@ Etherscan: **https://sepolia.etherscan.io/address/0xf3861969D9E49b9AD60875b3f43e
 
    - [Sepolia POW Faucet](https://sepolia-faucet.pk910.de/)
 
-     ![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/03-Metamask.png)
+     ![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/03-Metamask.png))
 
 4. **Infura API Key**: Regístrate gratis en [Infura.io](https://infura.io/)
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/04-Infura.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/04-Infura.png)
 
 
 
@@ -86,7 +86,7 @@ Etherscan: **https://sepolia.etherscan.io/address/0xf3861969D9E49b9AD60875b3f43e
    
    - Confirma la transacción en MetaMask
    
-     ![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/05-Remix.png)
+     ![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/05-Remix.png)
 
 ### Opción 2: Creando un Proyecto usando Hardhat con TypeScript
 
@@ -113,7 +113,7 @@ $ cd etherwallet-tarea-01
 $ npm install --save-dev hardhat@hh2
 ```
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/06-Entorno-HardHat.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/06-Entonro_HardHat.png)
 
 4. Se procede a inicializar el entorno y la creación de nuestro proyecto.
 
@@ -123,11 +123,11 @@ $ npm install --save-dev hardhat@hh2
 $ npx hardhat init
 ```
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/07-Entorno-HardHat.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/07-Entonro_HardHat.png)
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/08-Entorno-HardHat.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/08-Entonro_HardHat.png)
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/09-Entorno-HardHat.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/09-Entonro_HardHat.png)
 
 #### Paso-02: Configuración de Variables de Entorno
 
@@ -138,13 +138,13 @@ $ npx hardhat init
 $ code .
 ```
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/12-code.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/12-code.png)
 
 > [!NOTE]
 >
 > Debemos tener en cuenta que para abrir correctamente el Visual Studio Code en nuestro proyecto debemos estar ubicados exactamente dentro de su directorio.
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/13-code.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/13-code.png)
 
 2. Mediante el siguiente comando instala el módulo **dotenv** que permite cargar **variables de entorno** desde un archivo `.env` a tu aplicación Node.js. 
 
@@ -153,7 +153,7 @@ $ code .
 $ npm install dotenv
 ```
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/10-Dotenv.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/10-Dotenv.png)
 
 3. Procede a hacer una copia del archivo ejemplo llamado .env.example y renombralo como .env por medio del siguiente comando.
 
@@ -181,7 +181,7 @@ PRIVATE_KEY=tu_clave_privada_sin_0x
 ETHERSCAN_API_KEY=tu_etherscan_api_key_aqui
 ```
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/14-env-example.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/14-env-example.png)
 
 El proyecto deberá tener finalmente esta estructura.
 
@@ -201,7 +201,7 @@ etherwallet-project/
 └── .gitignore
 ```
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/11-Capeta_proyecto.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/11-Capeta_proyecto.png)
 
 > [!TIP]
 >
@@ -209,23 +209,23 @@ etherwallet-project/
 
 1. Abre MetaMask
 
-   ![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/22-Metamask.png)
+   ![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/22-Metamask.png)
 
 2. Click en los tres puntos → "Detalles de la cuenta"
 
-   ![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/23-Metamask.png)
+   ![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/23-Metamask.png)
 
 3. Click en "Exportar clave privada"
 
-   ![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/24-Metamask.png)
+   ![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/24-Metamask.png)
 
 4. Ingresa tu contraseña
 
-   ![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/25-Metamask.png)
+   ![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/25-Metamask.png)
 
 5. Copia la clave privada (sin el prefijo 0x para el archivo .env)
 
-   ![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/26-Metamask.png)
+   ![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/26-Metamask.png)
 
 > [!IMPORTANT]
 >
@@ -262,7 +262,7 @@ const config: HardhatUserConfig = {
 export default config;
 ```
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/15-Hardhat-config.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/15-Hardhat-config.png)
 
 #### Paso-04: Despliegue el proyecto en la red Sepolia
 
@@ -294,7 +294,7 @@ export default config;
 $ npx hardhat compile
 ```
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/16-Compile.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/16-Compile.png)
 
 2. Realiza test al proyecto.
 
@@ -303,7 +303,7 @@ $ npx hardhat compile
 $ npx hardhat test
 ```
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/17-Test.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/17-Test.png)
 
 3. Despliega el contrato en la Red de Sepolia.
 
@@ -312,9 +312,9 @@ $ npx hardhat test
 $ npx hardhat run scripts/deploy.ts --network sepolia
 ```
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/18-Despliegue.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/18-Despliegue.png)
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/19-Despliegue.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/19-Despliegue.png)
 
 4. Verificacion en Etherscan de Sepolia.
 
@@ -323,9 +323,9 @@ $ npx hardhat run scripts/deploy.ts --network sepolia
 $ npx hardhat verify --network sepolia 0xf3861969D9E49b9AD60875b3f43eec32ce87C789
 ```
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/20-Verificación.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/20-Verificación.png)
 
-![](/home/miguel/01-PROYECTO-HARDHAT/01-HardHat/etherwallet-tarea-01/assets/21-Verificación.png)
+![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/21-Verificación.png)
 
 ## Puntos adicionales
 
