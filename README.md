@@ -4,7 +4,7 @@
 
 ## I. Descripción.
 
-Contrato inteligente simple en Solidity que permite recibir y enviar Ether en la red de prueba Sepolia. Configurado para usar Hardhat con TypeScript y Viem.
+Contrato inteligente simple en Solidity que permite recibir y enviar Ether en la red de prueba Sepolia. Configurado para usar Hardhat con TypeScript.
 
 ### Despliegue de mi contrato inteligente:
 
