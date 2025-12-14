@@ -37,7 +37,7 @@ Etherscan: **https://sepolia.etherscan.io/address/0xf3861969D9E49b9AD60875b3f43e
 
    En la imagen se muestra los comandos de instalación en Linux, en mi caso Debian 13, los cuales deberan ser ejecutados mediante el uso de la terminal.
 
-   ![](assets/01-nodejs.png](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/01-nodejs.png))
+   ![](assets/01-nodejs.png](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/01-nodejs.png)
 
    
 
