@@ -55,7 +55,7 @@ Etherscan: **https://sepolia.etherscan.io/address/0xf3861969D9E49b9AD60875b3f43e
 
    - [Sepolia POW Faucet](https://sepolia-faucet.pk910.de/)
 
-     ![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/03-Metamask.png))
+     ![](https://raw.githubusercontent.com/miguelmejias0512/etherwallet-tarea-01/refs/heads/main/assets/03-Metamask.png)
 
 4. **Infura API Key**: Regístrate gratis en [Infura.io](https://infura.io/)
 
